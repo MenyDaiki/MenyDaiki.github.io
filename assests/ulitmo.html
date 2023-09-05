@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By Meny</title>
+    <link rel="stylesheet" href="ultimo.css" type="text/css">
+</head>
+<body>
+    <h2 class="text">
+        Desde que te conheci, você deixou minha vida colorida igual a essas letras,
+        sou extremamente grato por ter você ao meu lado e, poder contar contigo,
+        mesmo nos piores momentos e, por compartilhar o melhores momentos com você. 
+        Te amo de um modo que nem sei explicar, nunca senti isso por outra pessoa na minha vida. 
+        Espero que possamos compartilhar muitos mais momentos felizes juntos ao longo dessa trajetória. 
+        Não quero ser apenas seu namorado, quero ser seu namorado e, aquela pessoa que você confia, 
+        que mesmo nos piores momentos vai poder contar comigo, ser seu melhor amigo, independente do momento, 
+        confiar sempre, brincar sempre e, se amar imensamente. 
+        Te amo meu amor, minha princesa, minha garotinha ❤
+    </h2>
+    <script>
+        let text = document.querySelector('.text');
+        text.innerHTML = text.innerText.split('').map((letters, i) => `<span style="transition-delay:${i * 10}ms;filter:hue-rotate(${i * 30}deg)">${letters}</span>`).join('');
+    </script>
+</body>
+</html>
